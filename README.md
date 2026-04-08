@@ -1,9 +1,9 @@
 # 🏥 Hospital Website
 
-![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge\&logo=html5)
-![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge\&logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge\&logo=javascript)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?style=for-the-badge\&logo=bootstrap)
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5)
+![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?style=for-the-badge&logo=bootstrap)
 ![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
@@ -12,7 +12,7 @@
 ## 🚀 Live Demo
 
 🌐 **Website:**
-👉 https://hospital.vercel.app
+👉 https://hospital-m2devlab.vercel.app/
 
 🎯 **Portfolio:**
 👉 https://m2devlab.vercel.app
@@ -72,12 +72,12 @@ Visual representation of hospital performance metrics.
 
 This project is built using modern front-end technologies:
 
-* **HTML5** → Semantic structure and accessibility
-* **CSS3** → Custom styling, animations, and responsive design
-* **Bootstrap 5** → Grid system and UI components
-* **JavaScript (Vanilla JS)** → Interactive behavior and DOM manipulation
-* **Font Awesome** → Icons and visual elements
-* **Google Fonts** → Typography enhancement
+- **HTML5** → Semantic structure and accessibility
+- **CSS3** → Custom styling, animations, and responsive design
+- **Bootstrap 5** → Grid system and UI components
+- **JavaScript (Vanilla JS)** → Interactive behavior and DOM manipulation
+- **Font Awesome** → Icons and visual elements
+- **Google Fonts** → Typography enhancement
 
 ---
 
@@ -87,17 +87,18 @@ hospital/
 │
 ├── index.html
 ├── src/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── main.js
-│   ├── assets/
-│       ├── img/
-│       │   └── screenshot.png
-│       ├── logo/
+│ ├── css/
+│ │ └── style.css
+│ ├── js/
+│ │ └── main.js
+│ ├── assets/
+│ ├── img/
+│ │ └── screenshot.png
+│ ├── logo/
 │
 └── README.md
-```
+
+````
 
 The project follows a clean and modular structure separating styles, scripts, and assets for maintainability and scalability.
 
@@ -110,7 +111,7 @@ To run this project on your local machine:
 ```bash id="code2"
 git clone https://github.com/m2devlab/hospital.git
 cd hospital
-```
+````
 
 Then simply open:
 
@@ -148,11 +149,11 @@ The appointment button provides visual confirmation feedback, simulating real-wo
 
 ## 🧠 What I Focused On
 
-* Clean and maintainable code structure
-* Performance optimization (lazy animations)
-* Smooth user experience
-* Real-world UI simulation
-* Responsive and scalable design
+- Clean and maintainable code structure
+- Performance optimization (lazy animations)
+- Smooth user experience
+- Real-world UI simulation
+- Responsive and scalable design
 
 ---
 
@@ -171,7 +172,7 @@ The appointment button provides visual confirmation feedback, simulating real-wo
 
 👉 https://github.com/m2devlab/hospital
 
-*(Update this link after pushing your project)*
+_(Update this link after pushing your project)_
 
 ---
 
@@ -186,19 +187,19 @@ You are free to use, modify, and distribute this project with proper attribution
 
 If you found this project helpful or inspiring:
 
-* ⭐ Star the repository
-* 🔁 Share it with others
-* 💬 Give feedback
+- ⭐ Star the repository
+- 🔁 Share it with others
+- 💬 Give feedback
 
 ---
 
 ## 🚀 Future Improvements
 
-* Backend integration (appointment system)
-* Authentication system
-* Dashboard for doctors/patients
-* API integration for real data
-* Dark mode support
+- Backend integration (appointment system)
+- Authentication system
+- Dashboard for doctors/patients
+- API integration for real data
+- Dark mode support
 
 ---
 
