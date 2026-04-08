@@ -108,14 +108,14 @@ The project follows a clean and modular structure separating styles, scripts, an
 
 To run this project on your local machine:
 
-```bash id="code2"
+```
 git clone https://github.com/m2devlab/hospital.git
 cd hospital
 ````
 
 Then simply open:
 
-```id="code3"
+```
 index.html
 ```
 
@@ -171,8 +171,6 @@ The appointment button provides visual confirmation feedback, simulating real-wo
 ## 🔗 GitHub Repository
 
 👉 https://github.com/m2devlab/hospital
-
-_(Update this link after pushing your project)_
 
 ---
 
