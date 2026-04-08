@@ -13,6 +13,7 @@
 
 🌐 **Website:**
 👉 https://hospital-m2devlab.vercel.app/
+👉 https://m2devlab.github.io/hospital/
 
 🎯 **Portfolio:**
 👉 https://m2devlab.vercel.app
@@ -110,6 +111,7 @@ To run this project on your local machine:
 
 ```
 git clone https://github.com/m2devlab/hospital.git
+
 cd hospital
 ````
 
