@@ -1,0 +1,1576 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospital Website</title>
+    <meta content="Hospital Website by M2DevLab" name="keywords" />
+    <meta
+      content="World-class healthcare with compassion and expertise."
+      name="description"
+    />
+
+    <!-- Favicon -->
+    <link href="src/assets/logo/logo.png" rel="icon" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome 6 CDN -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap 5.3 CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+
+  <body>
+    <!-- TOPBAR START -->
+    <div class="topbar">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="topbar-left">
+          <a href="tel:+201014499338">
+            <i class="fa fa-phone me-1"></i>+20 101 4499338
+          </a>
+          <span class="topbar-divider">|</span>
+          <a href="mailto:Mohamed.AF.Mostafa@outlook.com">
+            <i class="fa fa-envelope me-1"></i>Mohamed.AF.Mostafa@outlook.com
+          </a>
+          <span class="emergency-badge">
+            <span class="pulse-dot"></span>
+            Emergency 24/7
+          </span>
+        </div>
+        <div class="social">
+          <a href="#!" aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#!" aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#!" aria-label="LinkedIn"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="#!" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- TOPBAR END -->
+
+    <!-- NAVBAR START -->
+    <nav
+      class="navbar navbar-expand-lg bg-white sticky-top shadow-sm"
+      id="mainNav"
+    >
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#hero">
+          <div class="brand-icon">
+            <i class="fa fa-clinic-medical"></i>
+          </div>
+          <div class="brand-text">
+            <span class="brand-name">HOSPITAL</span>
+            <small class="brand-tagline">Healthcare Excellence</small>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+          aria-controls="nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto py-0 align-items-lg-center">
+            <li class="nav-item">
+              <a href="#hero" class="nav-item nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-item nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#service" class="nav-item nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#price" class="nav-item nav-link">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#blog" class="dropdown-item"
+                    ><i class="fa fa-newspaper fa-sm me-2 text-muted"></i
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a href="#team" class="dropdown-item"
+                    ><i class="fa fa-users fa-sm me-2 text-muted"></i>Our
+                    Team</a
+                  >
+                </li>
+                <li>
+                  <a href="#testimonial" class="dropdown-item"
+                    ><i class="fa fa-star fa-sm me-2 text-muted"></i
+                    >Testimonials</a
+                  >
+                </li>
+                <li>
+                  <a href="#appt" class="dropdown-item"
+                    ><i class="fa fa-calendar fa-sm me-2 text-muted"></i
+                    >Appointment</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-item nav-link">Contact</a>
+            </li>
+            <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+              <a
+                class="btn btn-primary btn-nav-cta rounded-pill px-4"
+                href="#appt"
+              >
+                <i class="fa fa-calendar-check me-2"></i>Book Now
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- HERO START -->
+    <section class="hero" id="hero">
+      <div class="hero-shape hero-shape-1"></div>
+      <div class="hero-shape hero-shape-2"></div>
+      <div class="hero-shape hero-shape-3"></div>
+      <div class="container position-relative">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <div class="hero-badge mb-3">
+              <i class="fa fa-shield-heart me-2"></i>
+              Trusted by 50,000+ Patients
+            </div>
+            <h5><i class="fa fa-heart-pulse me-2"></i>Welcome To Medinova</h5>
+            <h1>
+              Best Healthcare<br />
+              <span class="hero-gradient-text">Solution</span> In Your City
+            </h1>
+            <p class="hero-subtitle">
+              Providing world-class medical care with compassion, precision, and
+              technology. Your health is our highest priority.
+            </p>
+            <div class="hero-actions">
+              <a href="#team" class="btn btn-light btn-hero me-3">
+                <i class="fa fa-user-doctor me-2"></i>Find Doctor
+              </a>
+              <a href="#appt" class="btn btn-outline-light btn-hero">
+                <i class="fa fa-calendar me-2"></i>Appointment
+              </a>
+            </div>
+            <div class="hero-trust mt-4">
+              <div class="trust-item">
+                <i class="fa fa-circle-check"></i>
+                <span>ISO Certified</span>
+              </div>
+              <div class="trust-item">
+                <i class="fa fa-circle-check"></i>
+                <span>JCI Accredited</span>
+              </div>
+              <div class="trust-item">
+                <i class="fa fa-circle-check"></i>
+                <span>24/7 Emergency</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 d-none d-lg-block">
+            <div class="hero-stats-grid">
+              <div class="hero-stat-card">
+                <i class="fa fa-user-doctor"></i>
+                <div class="hero-stat-number" data-target="120">0</div>
+                <div class="hero-stat-label">Specialists</div>
+              </div>
+              <div class="hero-stat-card">
+                <i class="fa fa-bed"></i>
+                <div class="hero-stat-number" data-target="500">0</div>
+                <div class="hero-stat-label">Beds</div>
+              </div>
+              <div class="hero-stat-card">
+                <i class="fa fa-face-smile"></i>
+                <div class="hero-stat-number" data-target="98" data-suffix="%">
+                  0
+                </div>
+                <div class="hero-stat-label">Satisfaction</div>
+              </div>
+              <div class="hero-stat-card">
+                <i class="fa fa-award"></i>
+                <div class="hero-stat-number" data-target="25">0</div>
+                <div class="hero-stat-label">Awards</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HERO END -->
+
+    <!-- QUICK SERVICES STRIP START -->
+    <div class="quick-strip">
+      <div class="container">
+        <div class="quick-strip-inner">
+          <a href="#appt" class="quick-strip-item">
+            <div class="qs-icon"><i class="fa fa-calendar-check"></i></div>
+            <div class="qs-text">
+              <strong>Book Appointment</strong>
+              <small>Online & Instant</small>
+            </div>
+          </a>
+          <a href="#service" class="quick-strip-item">
+            <div class="qs-icon"><i class="fa fa-kit-medical"></i></div>
+            <div class="qs-text">
+              <strong>Emergency Care</strong>
+              <small>Available 24/7</small>
+            </div>
+          </a>
+          <a href="#team" class="quick-strip-item">
+            <div class="qs-icon"><i class="fa fa-user-doctor"></i></div>
+            <div class="qs-text">
+              <strong>Find a Doctor</strong>
+              <small>120+ Specialists</small>
+            </div>
+          </a>
+          <a href="#price" class="quick-strip-item">
+            <div class="qs-icon"><i class="fa fa-file-medical"></i></div>
+            <div class="qs-text">
+              <strong>Health Packages</strong>
+              <small>From $49/yr</small>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- QUICK SERVICES STRIP END -->
+
+    <!-- ABOUT START -->
+    <section class="about-section py-section" id="about">
+      <div class="container">
+        <div class="row gx-5 align-items-center">
+          <div class="col-lg-5 mb-5 mb-lg-0">
+            <div class="about-img-wrapper">
+              <img
+                src="src/assets/img/about.jpg"
+                alt="About Medinova Medical Center"
+                class="about-main-img"
+              />
+              <div class="about-exp-badge">
+                <span class="exp-number">25+</span>
+                <span class="exp-text">Years of<br />Excellence</span>
+              </div>
+              <div class="about-patients-badge">
+                <i class="fa fa-users"></i>
+                <div>
+                  <strong>50,000+</strong>
+                  <small>Happy Patients</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="section-title mb-4">
+              <span>About Us</span>
+              <h2>Best Medical Care For You<br />and Your Family</h2>
+            </div>
+            <p class="about-lead">
+              We are committed to delivering exceptional healthcare services
+              with a team of highly qualified professionals. Our
+              state-of-the-art facility and patient-first approach ensures the
+              best outcomes for every individual we serve.
+            </p>
+            <p class="about-body mb-4">
+              From routine check-ups to complex surgical procedures, we offer
+              comprehensive care under one roof — because your health journey
+              deserves the best every step of the way.
+            </p>
+            <div class="expertise-bars mb-4">
+              <div class="expertise-item">
+                <div class="expertise-label">
+                  <span>Patient Satisfaction</span>
+                  <span class="expertise-pct">98%</span>
+                </div>
+                <div class="expertise-track">
+                  <div class="expertise-fill" data-width="98"></div>
+                </div>
+              </div>
+              <div class="expertise-item">
+                <div class="expertise-label">
+                  <span>Surgery Success Rate</span>
+                  <span class="expertise-pct">95%</span>
+                </div>
+                <div class="expertise-track">
+                  <div class="expertise-fill" data-width="95"></div>
+                </div>
+              </div>
+              <div class="expertise-item">
+                <div class="expertise-label">
+                  <span>Emergency Response</span>
+                  <span class="expertise-pct">99%</span>
+                </div>
+                <div class="expertise-track">
+                  <div class="expertise-fill" data-width="99"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row g-3">
+              <div class="col-6 col-sm-3 text-center">
+                <div class="stat-circle">
+                  <i class="fa fa-user-doctor"></i>
+                  <h6>Qualified<small class="d-block">Doctors</small></h6>
+                </div>
+              </div>
+              <div class="col-6 col-sm-3 text-center">
+                <div class="stat-circle">
+                  <i class="fa fa-procedures"></i>
+                  <h6>Emergency<small class="d-block">Services</small></h6>
+                </div>
+              </div>
+              <div class="col-6 col-sm-3 text-center">
+                <div class="stat-circle">
+                  <i class="fa fa-microscope"></i>
+                  <h6>Accurate<small class="d-block">Testing</small></h6>
+                </div>
+              </div>
+              <div class="col-6 col-sm-3 text-center">
+                <div class="stat-circle">
+                  <i class="fa fa-truck-medical"></i>
+                  <h6>Free<small class="d-block">Ambulance</small></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT END -->
+
+    <!-- SERVICES START -->
+    <section class="py-section bg-light-blue" id="service">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-title">
+            <span>Services</span>
+            <h2>Excellent Medical Services</h2>
+            <p class="section-subtitle">
+              Comprehensive care across all specialties, delivered with
+              precision and compassion.
+            </p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card">
+              <div class="service-num">01</div>
+              <div class="service-icon"><i class="fa fa-kit-medical"></i></div>
+              <h5>Emergency Care</h5>
+              <p>
+                24/7 emergency medical treatment with experienced teams ready to
+                respond at a moment's notice.
+              </p>
+              <a href="#" class="service-link">
+                Learn More <i class="fa fa-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card">
+              <div class="service-num">02</div>
+              <div class="service-icon"><i class="fa fa-scalpel"></i></div>
+              <h5>Operation &amp; Surgery</h5>
+              <p>
+                Advanced surgical procedures performed by specialist surgeons in
+                fully equipped operating theatres.
+              </p>
+              <a href="#" class="service-link">
+                Learn More <i class="fa fa-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card">
+              <div class="service-num">03</div>
+              <div class="service-icon"><i class="fa fa-stethoscope"></i></div>
+              <h5>Outdoor Checkup</h5>
+              <p>
+                Comprehensive outpatient consultations and diagnostics with our
+                specialist physicians.
+              </p>
+              <a href="#" class="service-link">
+                Learn More <i class="fa fa-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card">
+              <div class="service-num">04</div>
+              <div class="service-icon">
+                <i class="fa fa-truck-medical"></i>
+              </div>
+              <h5>Ambulance Service</h5>
+              <p>
+                Rapid-response ambulance fleet with paramedics available around
+                the clock.
+              </p>
+              <a href="#" class="service-link">
+                Learn More <i class="fa fa-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card">
+              <div class="service-num">05</div>
+              <div class="service-icon"><i class="fa fa-pills"></i></div>
+              <h5>Medicine &amp; Pharmacy</h5>
+              <p>
+                In-house pharmacy stocked with all essential medications and
+                staffed by licensed pharmacists.
+              </p>
+              <a href="#" class="service-link">
+                Learn More <i class="fa fa-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card">
+              <div class="service-num">06</div>
+              <div class="service-icon"><i class="fa fa-vial"></i></div>
+              <h5>Blood Testing</h5>
+              <p>
+                Accurate lab diagnostics with fast turnaround times and digital
+                result delivery.
+              </p>
+              <a href="#" class="service-link">
+                Learn More <i class="fa fa-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICES END -->
+
+    <!-- APPOINTMENT START -->
+    <section class="appt-section" id="appt">
+      <div class="appt-deco appt-deco-1"></div>
+      <div class="appt-deco appt-deco-2"></div>
+      <div class="container position-relative">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6">
+            <div class="section-title mb-3">
+              <span class="span-white">Appointment</span>
+              <h2 class="text-white">
+                Make An Appointment<br />For Your Family
+              </h2>
+            </div>
+            <p class="appt-desc">
+              Book your consultation online in minutes. Our team will confirm
+              your slot and send you all details via email. No waiting, no
+              hassle.
+            </p>
+            <div class="appt-steps">
+              <div class="appt-step">
+                <div class="step-num">1</div>
+                <div class="step-info">
+                  <strong>Choose a Department</strong>
+                  <small>Select your specialty area</small>
+                </div>
+              </div>
+              <div class="appt-step">
+                <div class="step-num">2</div>
+                <div class="step-info">
+                  <strong>Pick Your Doctor</strong>
+                  <small>Browse available specialists</small>
+                </div>
+              </div>
+              <div class="appt-step">
+                <div class="step-num">3</div>
+                <div class="step-info">
+                  <strong>Confirm &amp; Attend</strong>
+                  <small>Get email confirmation instantly</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex gap-3 flex-wrap mt-4">
+              <a href="#team" class="btn btn-light rounded-pill px-4 py-2">
+                <i class="fa fa-user-doctor me-2"></i>Find Doctor
+              </a>
+              <a
+                href="#service"
+                class="btn btn-outline-light rounded-pill px-4 py-2"
+              >
+                Our Services
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="appt-form">
+              <div class="appt-form-header">
+                <div class="appt-form-icon">
+                  <i class="fa fa-calendar-check"></i>
+                </div>
+                <div>
+                  <h3>Book An Appointment</h3>
+                  <small>Fill the form — it only takes 2 minutes</small>
+                </div>
+              </div>
+
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <div class="form-floating-custom">
+                    <select class="form-select" id="dept">
+                      <option value="">Choose Department</option>
+                      <option>Cardiology</option>
+                      <option>Neurology</option>
+                      <option>Pediatrics</option>
+                      <option>Orthopedics</option>
+                      <option>Dermatology</option>
+                      <option>General Surgery</option>
+                    </select>
+                    <label for="dept"
+                      ><i class="fa fa-hospital me-1"></i> Department</label
+                    >
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating-custom">
+                    <select class="form-select" id="doctor">
+                      <option value="">Select Doctor</option>
+                      <option>Dr. Ahmed Hassan</option>
+                      <option>Dr. Sara Khalid</option>
+                      <option>Dr. Omar Nabil</option>
+                    </select>
+                    <label for="doctor"
+                      ><i class="fa fa-user-doctor me-1"></i> Doctor</label
+                    >
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating-custom">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="fname"
+                      placeholder="Your Full Name"
+                    />
+                    <label for="fname"
+                      ><i class="fa fa-user me-1"></i> Full Name</label
+                    >
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating-custom">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="Email Address"
+                    />
+                    <label for="email"
+                      ><i class="fa fa-envelope me-1"></i> Email</label
+                    >
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating-custom">
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="phone"
+                      placeholder="Phone Number"
+                    />
+                    <label for="phone"
+                      ><i class="fa fa-phone me-1"></i> Phone</label
+                    >
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating-custom">
+                    <input type="date" class="form-control" id="apptdate" />
+                    <label for="apptdate"
+                      ><i class="fa fa-calendar me-1"></i> Preferred Date</label
+                    >
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating-custom">
+                    <textarea
+                      class="form-control"
+                      id="notes"
+                      rows="2"
+                      placeholder="Any notes for the doctor..."
+                    ></textarea>
+                    <label for="notes"
+                      ><i class="fa fa-comment-medical me-1"></i> Notes
+                      (Optional)</label
+                    >
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button
+                    class="btn btn-primary btn-appt-submit w-100"
+                    type="button"
+                    id="submitAppt"
+                  >
+                    <i class="fa fa-calendar-check me-2"></i>Confirm Appointment
+                  </button>
+                  <p class="appt-privacy-note">
+                    <i class="fa fa-lock me-1"></i>
+                    Your data is secure and will never be shared.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- APPOINTMENT END -->
+
+    <!-- COUNTERS STRIP START -->
+    <div class="counters-strip">
+      <div class="container">
+        <div class="counters-grid">
+          <div class="counter-item">
+            <i class="fa fa-user-doctor"></i>
+            <div class="counter-number" data-target="120">0</div>
+            <div class="counter-label">Specialist Doctors</div>
+          </div>
+          <div class="counter-item">
+            <i class="fa fa-bed"></i>
+            <div class="counter-number" data-target="500">0</div>
+            <div class="counter-label">Hospital Beds</div>
+          </div>
+          <div class="counter-item">
+            <i class="fa fa-users"></i>
+            <div class="counter-number" data-target="50000">0</div>
+            <div class="counter-label">Patients Treated</div>
+          </div>
+          <div class="counter-item">
+            <i class="fa fa-award"></i>
+            <div class="counter-number" data-target="25">0</div>
+            <div class="counter-label">Awards Won</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- COUNTERS STRIP END -->
+
+    <!-- PRICING START -->
+    <section class="py-section" id="price">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-title">
+            <span>Pricing</span>
+            <h2>Awesome Medical Programs</h2>
+            <p class="section-subtitle">
+              Transparent pricing with no hidden fees. Choose the plan that fits
+              your family's needs.
+            </p>
+          </div>
+          <div class="billing-toggle mt-4">
+            <span class="toggle-label">Monthly</span>
+            <label class="toggle-switch">
+              <input type="checkbox" id="billingToggle" checked />
+              <span class="toggle-slider"></span>
+            </label>
+            <span class="toggle-label">
+              Yearly
+              <span class="toggle-save-badge">Save 20%</span>
+            </span>
+          </div>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-3 col-md-6">
+            <div class="price-card">
+              <div class="price-header">
+                <div class="price-icon"><i class="fa fa-shield-heart"></i></div>
+                <h4>Basic Care</h4>
+                <div class="price">
+                  <sup>$</sup
+                  ><span class="price-num" data-monthly="5" data-yearly="49"
+                    >49</span
+                  ><sub>/yr</sub>
+                </div>
+              </div>
+              <div class="price-body">
+                <ul>
+                  <li><i class="fa fa-check-circle"></i>Emergency Treatment</li>
+                  <li><i class="fa fa-check-circle"></i>General Checkup</li>
+                  <li><i class="fa fa-check-circle"></i>Telephone Support</li>
+                  <li class="disabled">
+                    <i class="fa fa-times-circle"></i>Surgery Coverage
+                  </li>
+                  <li class="disabled">
+                    <i class="fa fa-times-circle"></i>Lab Tests
+                  </li>
+                </ul>
+                <div class="text-center mt-3">
+                  <a href="#" class="btn btn-outline-primary rounded-pill px-4"
+                    >Get Started</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="price-card featured">
+              <div class="price-ribbon">Most Popular</div>
+              <div class="price-header">
+                <div class="price-icon"><i class="fa fa-star"></i></div>
+                <h4>Health Plus</h4>
+                <div class="price">
+                  <sup>$</sup
+                  ><span class="price-num" data-monthly="9" data-yearly="99"
+                    >99</span
+                  ><sub>/yr</sub>
+                </div>
+              </div>
+              <div class="price-body">
+                <ul>
+                  <li><i class="fa fa-check-circle"></i>Emergency Treatment</li>
+                  <li><i class="fa fa-check-circle"></i>Full Health Checkup</li>
+                  <li><i class="fa fa-check-circle"></i>24/7 Support</li>
+                  <li><i class="fa fa-check-circle"></i>Lab Tests Included</li>
+                  <li class="disabled">
+                    <i class="fa fa-times-circle"></i>Surgery Coverage
+                  </li>
+                </ul>
+                <div class="text-center mt-3">
+                  <a href="#" class="btn btn-primary rounded-pill px-4"
+                    >Get Started</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="price-card">
+              <div class="price-header">
+                <div class="price-icon"><i class="fa fa-tooth"></i></div>
+                <h4>Dental Care</h4>
+                <div class="price">
+                  <sup>$</sup
+                  ><span class="price-num" data-monthly="14" data-yearly="149"
+                    >149</span
+                  ><sub>/yr</sub>
+                </div>
+              </div>
+              <div class="price-body">
+                <ul>
+                  <li><i class="fa fa-check-circle"></i>Emergency Treatment</li>
+                  <li><i class="fa fa-check-circle"></i>Dental Coverage</li>
+                  <li><i class="fa fa-check-circle"></i>Priority Booking</li>
+                  <li><i class="fa fa-check-circle"></i>Specialist Access</li>
+                  <li class="disabled">
+                    <i class="fa fa-times-circle"></i>Surgery Coverage
+                  </li>
+                </ul>
+                <div class="text-center mt-3">
+                  <a href="#" class="btn btn-outline-primary rounded-pill px-4"
+                    >Get Started</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="price-card">
+              <div class="price-header">
+                <div class="price-icon"><i class="fa fa-scalpel"></i></div>
+                <h4>Surgery Plan</h4>
+                <div class="price">
+                  <sup>$</sup
+                  ><span class="price-num" data-monthly="19" data-yearly="199"
+                    >199</span
+                  ><sub>/yr</sub>
+                </div>
+              </div>
+              <div class="price-body">
+                <ul>
+                  <li>
+                    <i class="fa fa-check-circle"></i>Full Surgery Coverage
+                  </li>
+                  <li><i class="fa fa-check-circle"></i>Post-Op Care</li>
+                  <li><i class="fa fa-check-circle"></i>VIP Room Access</li>
+                  <li><i class="fa fa-check-circle"></i>Free Ambulance</li>
+                  <li><i class="fa fa-check-circle"></i>All Lab Tests</li>
+                </ul>
+                <div class="text-center mt-3">
+                  <a href="#" class="btn btn-outline-primary rounded-pill px-4"
+                    >Get Started</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PRICING END -->
+
+    <!-- TEAM START -->
+    <section class="py-section bg-light-blue" id="team">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-title">
+            <span>Our Doctors</span>
+            <h2>Qualified Healthcare Professionals</h2>
+            <p class="section-subtitle">
+              Our team of board-certified specialists brings decades of combined
+              experience to every patient interaction.
+            </p>
+          </div>
+          <div class="doctor-filter-tabs mt-4">
+            <button class="filter-tab active" data-filter="all">All</button>
+            <button class="filter-tab" data-filter="cardiology">
+              Cardiology
+            </button>
+            <button class="filter-tab" data-filter="neurology">
+              Neurology
+            </button>
+            <button class="filter-tab" data-filter="orthopedics">
+              Orthopedics
+            </button>
+          </div>
+        </div>
+        <div class="row g-4" id="doctorsGrid">
+          <div class="col-lg-4 col-md-6" data-specialty="cardiology">
+            <div class="doctor-card">
+              <div class="doctor-img-wrapper">
+                <img
+                  src="src/assets/img/team-1.jpg"
+                  alt="Dr. Ahmed Hassan — Cardiologist"
+                  class="doctor-img"
+                />
+                <div class="doctor-overlay">
+                  <p class="doctor-overlay-bio">
+                    Over 15 years of experience in cardiovascular care and
+                    interventional cardiology. Fellow of the American College of
+                    Cardiology.
+                  </p>
+                  <a
+                    href="#appt"
+                    class="btn btn-light btn-sm rounded-pill px-3 mt-2"
+                  >
+                    <i class="fa fa-calendar me-1"></i>Book Appointment
+                  </a>
+                </div>
+                <div class="doctor-specialty-badge cardiology">Cardiology</div>
+              </div>
+              <div class="doctor-info">
+                <h5>Dr. Ahmed Hassan</h5>
+                <p class="specialty">
+                  <i class="fa fa-heart me-1"></i>Cardiology Specialist
+                </p>
+                <div class="doctor-meta">
+                  <span><i class="fa fa-star text-warning"></i> 4.9</span>
+                  <span
+                    ><i class="fa fa-users text-muted"></i> 1,200+
+                    Patients</span
+                  >
+                </div>
+                <div class="doctor-social">
+                  <a href="#" aria-label="Twitter"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#" aria-label="Facebook"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" aria-label="LinkedIn"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-specialty="neurology">
+            <div class="doctor-card">
+              <div class="doctor-img-wrapper">
+                <img
+                  src="src/assets/img/team-3.jpg"
+                  alt="Dr. Sara Khalid — Neurologist"
+                  class="doctor-img"
+                />
+                <div class="doctor-overlay">
+                  <p class="doctor-overlay-bio">
+                    Expert in neurological disorders with a compassionate
+                    patient-centered approach. Specialises in epilepsy and
+                    headache disorders.
+                  </p>
+                  <a
+                    href="#appt"
+                    class="btn btn-light btn-sm rounded-pill px-3 mt-2"
+                  >
+                    <i class="fa fa-calendar me-1"></i>Book Appointment
+                  </a>
+                </div>
+                <div class="doctor-specialty-badge neurology">Neurology</div>
+              </div>
+              <div class="doctor-info">
+                <h5>Dr. Sara Khalid</h5>
+                <p class="specialty">
+                  <i class="fa fa-brain me-1"></i>Neurology Specialist
+                </p>
+                <div class="doctor-meta">
+                  <span><i class="fa fa-star text-warning"></i> 4.8</span>
+                  <span
+                    ><i class="fa fa-users text-muted"></i> 980+ Patients</span
+                  >
+                </div>
+                <div class="doctor-social">
+                  <a href="#" aria-label="Twitter"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#" aria-label="Facebook"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" aria-label="LinkedIn"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-specialty="orthopedics">
+            <div class="doctor-card">
+              <div class="doctor-img-wrapper">
+                <img
+                  src="src/assets/img/team-2.jpg"
+                  alt="Dr. Omar Nabil — Orthopaedic Surgeon"
+                  class="doctor-img"
+                />
+                <div class="doctor-overlay">
+                  <p class="doctor-overlay-bio">
+                    Renowned orthopaedic surgeon specialising in joint
+                    replacement and sports injuries. Over 2,000 successful
+                    surgeries.
+                  </p>
+                  <a
+                    href="#appt"
+                    class="btn btn-light btn-sm rounded-pill px-3 mt-2"
+                  >
+                    <i class="fa fa-calendar me-1"></i>Book Appointment
+                  </a>
+                </div>
+                <div class="doctor-specialty-badge orthopedics">
+                  Orthopedics
+                </div>
+              </div>
+              <div class="doctor-info">
+                <h5>Dr. Omar Nabil</h5>
+                <p class="specialty">
+                  <i class="fa fa-bone me-1"></i>Orthopedics Specialist
+                </p>
+                <div class="doctor-meta">
+                  <span><i class="fa fa-star text-warning"></i> 4.9</span>
+                  <span
+                    ><i class="fa fa-users text-muted"></i> 2,000+
+                    Patients</span
+                  >
+                </div>
+                <div class="doctor-social">
+                  <a href="#" aria-label="Twitter"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#" aria-label="Facebook"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" aria-label="LinkedIn"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="#" class="btn btn-primary rounded-pill px-5 py-3">
+            <i class="fa fa-users me-2"></i>View All Doctors
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- TEAM END -->
+
+    <!-- SEARCH START -->
+    <section class="search-section" id="search">
+      <div class="container text-center">
+        <div class="section-title mb-3">
+          <span class="span-white">Find A Doctor</span>
+          <h2 class="text-white">Find A Healthcare Professional</h2>
+        </div>
+        <p class="search-subtitle">
+          Search across all departments and specialties. Our team is ready to
+          help you find the right doctor.
+        </p>
+        <div class="search-bar-wrapper">
+          <div class="search-bar">
+            <select class="form-select search-select" aria-label="Department">
+              <option value="">All Departments</option>
+              <option>Cardiology</option>
+              <option>Neurology</option>
+              <option>Pediatrics</option>
+              <option>Orthopedics</option>
+              <option>Dermatology</option>
+            </select>
+            <input
+              type="text"
+              class="form-control search-input"
+              placeholder="Search by name or keyword..."
+              aria-label="Search"
+            />
+            <button class="btn-search" type="button" aria-label="Search">
+              <i class="fa fa-search me-1"></i>Search
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SEARCH END -->
+
+    <!-- TESTIMONIALS START -->
+    <section class="testimonial-section" id="testimonial">
+      <div class="container">
+        <div class="text-center mb-5 pb-3">
+          <div class="section-title">
+            <span>Testimonials</span>
+            <h2>What Our Patients Say</h2>
+            <p class="section-subtitle">
+              Real stories from real patients who trusted us with their health.
+            </p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="testimonial-card">
+              <div class="stars">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "The team at Medinova was absolutely incredible. From the moment
+                I walked in, I felt cared for. My procedure was explained
+                clearly and the recovery support was outstanding."
+              </p>
+              <div class="author">
+                <div class="avatar">
+                  <img
+                    src="src/assets/img/testimonial-2.jpg"
+                    alt="Mohamed Ali"
+                  />
+                </div>
+                <div class="author-info">
+                  <h6>Mohamed Ali</h6>
+                  <small>Software Engineer</small>
+                  <div class="verified">
+                    <i class="fa fa-check-circle"></i> Verified Patient
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="testimonial-card featured-testimonial">
+              <div class="stars">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "Dr. Sara was thorough, patient, and genuinely caring. The
+                booking process was seamless and the facility is world-class. I
+                wouldn't go anywhere else for my family's healthcare."
+              </p>
+              <div class="author">
+                <div class="avatar">
+                  <img
+                    src="src/assets/img/testimonial-1.jpg"
+                    alt="Layla Nasser"
+                  />
+                </div>
+                <div class="author-info">
+                  <h6>Layla Nasser</h6>
+                  <small>Teacher</small>
+                  <div class="verified">
+                    <i class="fa fa-check-circle"></i> Verified Patient
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mx-md-auto mx-lg-0">
+            <div class="testimonial-card">
+              <div class="stars">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+              </div>
+              <p class="testimonial-text">
+                "Fast, efficient, and professional. The emergency team responded
+                within minutes and the follow-up care was excellent. Medinova
+                truly sets the standard for healthcare."
+              </p>
+              <div class="author">
+                <div class="avatar">
+                  <img src="src/assets/img/testimonial-3.jpg" alt="Yara Adel" />
+                </div>
+                <div class="author-info">
+                  <h6>Yara Adel</h6>
+                  <small>Business Owner</small>
+                  <div class="verified">
+                    <i class="fa fa-check-circle"></i> Verified Patient
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIALS END -->
+
+    <!-- BLOG START -->
+    <section class="py-section bg-light-blue" id="blog">
+      <div class="container">
+        <div class="text-center mb-5 pb-3">
+          <div class="section-title">
+            <span>Our Blog</span>
+            <h2>Latest Medical Articles</h2>
+            <p class="section-subtitle">
+              Expert insights, health tips, and the latest medical research from
+              our specialist team.
+            </p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <article class="blog-card">
+              <div class="blog-img-wrapper">
+                <img
+                  src="src/assets/img/blog-1.jpg"
+                  class="blog-img"
+                  alt="Heart Health Article"
+                />
+                <div class="blog-badge cardiology">
+                  <i class="fa fa-heartbeat me-1"></i> Cardiology
+                </div>
+                <div class="blog-read-time">
+                  <i class="fa fa-clock me-1"></i> 5 min read
+                </div>
+              </div>
+              <div class="blog-content">
+                <div class="blog-date">
+                  <i class="fa fa-calendar-alt me-1"></i> Jan 15, 2025
+                </div>
+                <h5 class="blog-title">
+                  <a href="#"
+                    >Understanding Heart Health: Prevention Tips for 2025</a
+                  >
+                </h5>
+                <p class="blog-excerpt">
+                  Learn about the latest research and practical steps to protect
+                  your cardiovascular system.
+                </p>
+                <div class="blog-footer">
+                  <div class="blog-author">
+                    <i class="fa fa-user-md"></i> Dr. Ahmed Hassan
+                  </div>
+                  <div class="stats">
+                    <span><i class="fa fa-eye"></i> 12.3k</span>
+                    <span><i class="fa fa-comment-dots"></i> 48</span>
+                  </div>
+                </div>
+                <div class="read-more">
+                  Read Full Article <i class="fa fa-arrow-right ms-1"></i>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <article class="blog-card">
+              <div class="blog-img-wrapper">
+                <img
+                  src="src/assets/img/blog-2.jpg"
+                  class="blog-img"
+                  alt="Mind Body Article"
+                />
+                <div class="blog-badge neurology">
+                  <i class="fa fa-brain me-1"></i> Neurology
+                </div>
+                <div class="blog-read-time">
+                  <i class="fa fa-clock me-1"></i> 7 min read
+                </div>
+              </div>
+              <div class="blog-content">
+                <div class="blog-date">
+                  <i class="fa fa-calendar-alt me-1"></i> Feb 3, 2025
+                </div>
+                <h5 class="blog-title">
+                  <a href="#">The Mind-Body Connection: Managing Stress</a>
+                </h5>
+                <p class="blog-excerpt">
+                  Explore how mental wellness directly impacts physical health
+                  and daily habits.
+                </p>
+                <div class="blog-footer">
+                  <div class="blog-author">
+                    <i class="fa fa-user-md"></i> Dr. Sara Khalid
+                  </div>
+                  <div class="stats">
+                    <span><i class="fa fa-eye"></i> 9.8k</span>
+                    <span><i class="fa fa-comment-dots"></i> 31</span>
+                  </div>
+                </div>
+                <div class="read-more">
+                  Read Full Article <i class="fa fa-arrow-right ms-1"></i>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <article class="blog-card">
+              <div class="blog-img-wrapper">
+                <img
+                  src="src/assets/img/blog-3.jpg"
+                  class="blog-img"
+                  alt="Joint Pain Article"
+                />
+                <div class="blog-badge orthopedics">
+                  <i class="fa fa-bone me-1"></i> Orthopedics
+                </div>
+                <div class="blog-read-time">
+                  <i class="fa fa-clock me-1"></i> 4 min read
+                </div>
+              </div>
+              <div class="blog-content">
+                <div class="blog-date">
+                  <i class="fa fa-calendar-alt me-1"></i> Mar 10, 2025
+                </div>
+                <h5 class="blog-title">
+                  <a href="#">Joint Pain Relief: When to See a Specialist</a>
+                </h5>
+                <p class="blog-excerpt">
+                  Find out what signs indicate it's time to consult a specialist
+                  instead of self-treatment.
+                </p>
+                <div class="blog-footer">
+                  <div class="blog-author">
+                    <i class="fa fa-user-md"></i> Dr. Omar Nabil
+                  </div>
+                  <div class="stats">
+                    <span><i class="fa fa-eye"></i> 7.1k</span>
+                    <span><i class="fa fa-comment-dots"></i> 22</span>
+                  </div>
+                </div>
+                <div class="read-more">
+                  Read Full Article <i class="fa fa-arrow-right ms-1"></i>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="#" class="btn btn-primary rounded-pill px-5 py-3">
+            <i class="fa fa-newspaper me-2"></i>View All Articles
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- BLOG END -->
+
+    <!-- CONTACT START -->
+    <section class="py-section" id="contact">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-title">
+            <span>Contact Us</span>
+            <h2>Get In Touch With Us</h2>
+            <p class="section-subtitle">
+              Have questions? Our team is available 24/7 to help you.
+            </p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <i class="fa fa-map-marker-alt"></i>
+              </div>
+              <h5>Our Location</h5>
+              <p>123 Health Street, New York, USA</p>
+              <a href="#" class="contact-link"
+                >Get Directions <i class="fa fa-external-link-alt ms-1"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <i class="fa fa-phone-alt"></i>
+              </div>
+              <h5>Phone &amp; Emergency</h5>
+              <p>
+                +20 101 4499338<br /><strong class="text-danger"
+                  >Emergency: 911</strong
+                >
+              </p>
+              <a href="tel:+201014499338" class="contact-link"
+                >Call Now <i class="fa fa-arrow-right ms-1"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <h5>Email Us</h5>
+              <p>Mohamed.AF.Mostafa@outlook.com</p>
+              <a
+                href="mailto:Mohamed.AF.Mostafa@outlook.com"
+                class="contact-link"
+                >Send Email <i class="fa fa-arrow-right ms-1"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-wrapper mt-5">
+          <div class="map-overlay">
+            <i class="fa fa-map-marked-alt fa-3x mb-3"></i>
+            <h5>Interactive Map</h5>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6859.201857665719!2d31.771842757116715!3d30.72961751810616!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f825d206832393%3A0x7f7f26edcff02cd6!2z2LnYstio2Kkg2KfZhNiz2LHZiA!5e0!3m2!1sen!2seg!4v1775641330512!5m2!1sen!2seg" width="1290" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT END -->
+
+    <!-- FOOTER START -->
+    <footer id="footer">
+      <div class="container">
+        <div class="row g-5 pb-5">
+          <div class="col-lg-4 col-md-6">
+            <a
+              class="d-flex align-items-center gap-2 mb-3 text-decoration-none"
+              href="#hero"
+            >
+              <i
+                class="fa fa-clinic-medical fa-lg"
+                style="color: var(--primary)"
+              ></i>
+              <span class="footer-brand-name">MEDINOVA</span>
+            </a>
+            <p class="footer-desc">
+              Delivering world-class healthcare with compassion and expertise.
+              Your trusted partner for a healthier life since 1999.
+            </p>
+
+            <a
+              href="https://wa.me/201014499338"
+              class="whatsapp-cta"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <strong>Chat on WhatsApp</strong>
+                <small>Typically replies in minutes</small>
+              </div>
+            </a>
+
+            <div class="footer-contact mt-3">
+              <p>
+                <i class="fa fa-map-marker-alt"></i>123 Health Street, New York,
+                USA
+              </p>
+              <p><i class="fa fa-envelope"></i>info@medinova.com</p>
+              <p><i class="fa fa-phone"></i>+012 345 67890</p>
+            </div>
+            <div class="footer-social mt-3">
+              <a href="#" class="social-btn" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-btn" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="social-btn" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-btn" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <h5>Quick Links</h5>
+            <a class="footer-link" href="#hero"
+              ><i class="fa fa-angle-right"></i>Home</a
+            >
+            <a class="footer-link" href="#about"
+              ><i class="fa fa-angle-right"></i>About Us</a
+            >
+            <a class="footer-link" href="#service"
+              ><i class="fa fa-angle-right"></i>Services</a
+            >
+            <a class="footer-link" href="#team"
+              ><i class="fa fa-angle-right"></i>Our Team</a
+            >
+            <a class="footer-link" href="#blog"
+              ><i class="fa fa-angle-right"></i>Blog</a
+            >
+            <a class="footer-link" href="#contact"
+              ><i class="fa fa-angle-right"></i>Contact</a
+            >
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <h5>Services</h5>
+            <a class="footer-link" href="#service"
+              ><i class="fa fa-angle-right"></i>Emergency Care</a
+            >
+            <a class="footer-link" href="#service"
+              ><i class="fa fa-angle-right"></i>Surgery</a
+            >
+            <a class="footer-link" href="#service"
+              ><i class="fa fa-angle-right"></i>Cardiology</a
+            >
+            <a class="footer-link" href="#service"
+              ><i class="fa fa-angle-right"></i>Neurology</a
+            >
+            <a class="footer-link" href="#service"
+              ><i class="fa fa-angle-right"></i>Pharmacy</a
+            >
+            <a class="footer-link" href="#service"
+              ><i class="fa fa-angle-right"></i>Lab Testing</a
+            >
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <h5>Newsletter</h5>
+            <p class="footer-newsletter-desc">
+              Subscribe for health tips, news, and exclusive updates from our
+              specialists.
+            </p>
+            <div class="newsletter-form">
+              <input
+                type="email"
+                class="newsletter-input"
+                placeholder="Your email address"
+                aria-label="Email for newsletter"
+              />
+              <button class="newsletter-btn" type="button">
+                <i class="fa fa-paper-plane"></i>
+              </button>
+            </div>
+
+            <div class="footer-hours mt-4">
+              <h5>Working Hours</h5>
+              <div class="hours-row">
+                <span>Mon – Fri</span>
+                <span class="hours-time">8:00 AM – 8:00 PM</span>
+              </div>
+              <div class="hours-row">
+                <span>Sat – Sun</span>
+                <span class="hours-time">9:00 AM – 5:00 PM</span>
+              </div>
+              <div class="hours-row emergency-hours">
+                <span
+                  ><i class="fa fa-circle-dot fa-beat me-1"></i>Emergency</span
+                >
+                <span class="hours-time text-danger fw-bold">24 / 7</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div
+          class="container d-flex justify-content-between align-items-center flex-wrap gap-2"
+        >
+          <span>
+            &copy; 2025
+            <a href="#" class="footer-bottom-link">Medinova</a>. All rights
+            reserved.
+          </span>
+          <span>
+            Designed with
+            <i class="fa fa-heart" style="color: var(--primary)"></i> by
+            <a
+              href="https://m2devlab.vercel.app/"
+              target="_blank"
+              rel="noopener"
+              class="footer-bottom-link fw-bold"
+              >M2DevLab</a
+            >
+            &mdash; Using <span class="footer-bottom-link">Bootstrap 5</span>
+          </span>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- BACK TO TOP START -->
+    <a href="#hero" class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+    <!-- BACK TO TOP END -->
+
+    <!-- Bootstrap 5 CDN JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="src/js/main.js"></script>
+  </body>
+</html>
